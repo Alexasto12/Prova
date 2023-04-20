@@ -1,0 +1,8 @@
+#!/bin/bash
+# Script per multiplicar
+if [ "$2" = "0" ]
+then
+echo No es pot dividir entre 0
+else
+echo $(($1 / $2))
+fi

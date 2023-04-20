@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Mostrar el número de parámetres
+echo "Número de parámetres: $#"
+
+# Mostrar el valor de cada parámetre
+for param in "$@"
+do
+  echo "Valor del parámetre: $param"
+done
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+# Script per calcular multipiples operacions
+read -p "Ingresa el primer número: " num1
+read -p "Ingresa el segon número: " num2
+resta $num1 $num2

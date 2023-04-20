@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script per multiplicar
+
+echo $(($1 * $2))

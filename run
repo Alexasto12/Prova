@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Definir el nom del fitxer de log
+RUNLOG="/mylog/runlog"
+
+# Verificar si el fitxer de log existeix, i si no, crear-lo
+if [ ! -f $RUNLOG ]; then
+  touch $RUNLOG
+fi
+
+# Afegir una línia al fitxer de log amb la data i l'hora actuals
+echo "script running at $(date '+%H:%M %d/%m/%Y')" >> $RUNLOG
+

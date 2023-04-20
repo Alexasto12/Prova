@@ -1,0 +1,28 @@
+2. Més scripts
+
+Ubuntu Manpage: test - check file types and compare values
+
+- Anomena els fitxers sense l'extensió .sh, inclou el shebang i un comentari explicant el funcionament de l'script.
+
+2.1 Operacions aritmètiques
+
+suma: calcula la suma de dos números enters passats com a paràmetres.
+
+resta: calcula la resta.
+
+prod: calcula el producte.
+
+div: calcula la divisió. Si el segon paràmetre és zero retorna un missatge del tipus "Error: no es pot dividir per zero".
+
+calc: calcula qualsevol de les operacions anteriors. El segon paràmetre ($2) indica l'operació que es vol realitzar (+, -, * o /). Actualització: el producte no es pot calcular perquè el paràmetre * no s'interpreta com un asterisc, s'hauria de canviar per x
+
+sumai: calcula la suma (interactiva) de dos números enters. Es mostren missatges demanant els números i l'usuari els introdueix per teclat. Retorna un missatge del tipus "El resultat de 5 + 2 és igual a 7".
+
+restai: calcula la resta de manera interactiva.
+
+prod: calcula el producte de manera interactiva.
+
+div: calcula la divisió de manera interactiva.
+
+calci: calcula qualsevol de les operacions anteriors de manera interactiva. El primer missatge demana quina operació es vol realitzar.
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+# Obtindre el número passat com a paràmetre
+num=$1
+
+# Començar el recompte
+for (( i=0; i<=num; i++ ))
+do
+  echo "Comptant: $i"
+  sleep 1
+done
+
+echo "El recompte ha acabat!"

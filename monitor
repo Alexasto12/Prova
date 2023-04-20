@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Funció per mostrar el menú
+function show_menu() {
+  echo "Escull una eina de monitorització:"
+  echo "  1. top"
+  echo "  2. netstat"
+  echo "  3. ps"
+}
+
+# Funció per executar l'eina seleccionada
+function run_tool() {
+  case $1 in
+    "1"|"top") top ;;
+    "2"|"netstat") netstat ;;
+    "3"|"ps") ps ;;
+    *) echo "Eina no reconeguda: $1" ;;
+  esac
+}
+
+# Mostrar el menú inicial
+show_menu
+
+# Llegir la selecció de l'usuari
+read selection
+
+# Executar l'eina seleccionada
+run_tool $selection

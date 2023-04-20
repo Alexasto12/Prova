@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Definir la carpeta que es vol fer backup
+RUTA="/home/alejandro-cabrera/Scripts"
+
+# Definir el nom del fitxer de backup amb la data actual
+NOM="backup_Scripts_$(date '+%Y-%m-%d').tar.gz"
+
+# Crear el backup comprimit amb tar
+tar -czf $NOM $RUTA

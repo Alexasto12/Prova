@@ -1,0 +1,12 @@
+#!/bin/bash
+# Obtindre el número passat com a paràmetre
+num=$1
+
+# Començar el recompte enrere
+for (( i=num; i>=0; i-- ))
+do
+  echo "Comptant endarrere: $i"
+  sleep 1
+done
+
+echo "El recompte ha acabat!"

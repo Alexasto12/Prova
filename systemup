@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Actualitzar la llista de paquets
+sudo apt-get update
+
+# Actualitzar els paquets instal·lats
+sudo apt-get upgrade
+
+# Actualitzar el sistema complet
+sudo apt-get dist-upgrade

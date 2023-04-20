@@ -1,0 +1,3 @@
+#!/bin/bash
+#Aquest script imprimeix la paraula.
+echo Hello World
